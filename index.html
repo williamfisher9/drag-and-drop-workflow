@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workflow Drag n Drop</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+
+    <div class="controller">
+        <input type="text" placeholder="Enter ticket details" id="textBox"/>
+        <input type="button" value="create" id="btn"/>
+    </div>
+    
+    <div class="wrapper">
+        <div class="row">
+            <div class="col"><h1>NEW</h1></div>
+            <div class="col"><h1>IN PROGRESS</h1></div>
+            <div class="col"><h1>DONE</h1></div>
+        </div>
+
+        <div class="row">
+            <div class="col"><div class="menu-section new-wrapper"></div></div>
+            <div class="col"><div class="menu-section inprogress-wrapper"></div></div>
+            <div class="col"><div class="menu-section done-wrapper"></div></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
